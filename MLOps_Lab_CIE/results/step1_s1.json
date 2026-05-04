@@ -1,0 +1,22 @@
+{
+  "experiment_name": "econpulse-inflation-index",
+  "models": [
+    {
+      "name": "Lasso",
+      "mae": 0.3891,
+      "rmse": 0.4206,
+      "r2": 0.8867,
+      "mape": 5.7471
+    },
+    {
+      "name": "RandomForest",
+      "mae": 1.3544,
+      "rmse": 1.4412,
+      "r2": -0.3294,
+      "mape": 22.6431
+    }
+  ],
+  "best_model": "Lasso",
+  "best_metric_name": "rmse",
+  "best_metric_value": 0.4206
+}

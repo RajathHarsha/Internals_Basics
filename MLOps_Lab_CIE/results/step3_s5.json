@@ -1,0 +1,23 @@
+{
+  "total_predictions": 50,
+  "mean_prediction": 7.2555,
+  "drift_detected": true,
+  "alerts": [
+    {
+      "feature": "crude_oil_price",
+      "train_mean": 82.5,
+      "live_mean": 92.236,
+      "shift": 9.736,
+      "threshold": 12.83,
+      "status": "ALERT"
+    },
+    {
+      "feature": "money_supply_growth_pct",
+      "train_mean": 7.864,
+      "live_mean": 10.278,
+      "shift": 2.414,
+      "threshold": 3.36,
+      "status": "ALERT"
+    }
+  ]
+}
